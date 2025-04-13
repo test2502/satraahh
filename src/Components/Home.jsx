@@ -21,7 +21,7 @@ const Home = () => {
         {/* Card 1 */}
         <div
           onClick={goToPosition}
-          className="relative bg-[url('/src/assets/picIdeas/img3.jpg')] bg-cover bg-center h-[300px] w-full sm:w-[90%] md:w-[400px] rounded-xl shadow-md cursor-pointer hover:shadow-lg transition duration-300 overflow-hidden"
+          className="relative bg-[url('/assets/picIdeas/img3.jpg')] bg-cover bg-center h-[300px] w-full sm:w-[90%] md:w-[400px] rounded-xl shadow-md cursor-pointer hover:shadow-lg transition duration-300 overflow-hidden"
         >
           <div
             style={{
@@ -41,7 +41,7 @@ const Home = () => {
         {/* Card 2 */}
         <div
           onClick={goToIdeas}
-          className="relative bg-[url('/src/assets/picIdeas/img3.jpg')] bg-cover bg-center h-[300px] w-full sm:w-[90%] md:w-[400px] rounded-xl shadow-md cursor-pointer hover:shadow-lg transition duration-300 overflow-hidden"
+          className="relative bg-[url('/assets/picIdeas/img3.jpg')] bg-cover bg-center h-[300px] w-full sm:w-[90%] md:w-[400px] rounded-xl shadow-md cursor-pointer hover:shadow-lg transition duration-300 overflow-hidden"
         >
           <div
             style={{
