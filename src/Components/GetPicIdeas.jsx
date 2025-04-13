@@ -1,5 +1,5 @@
 import { useState } from "react";
-import picData from "/src/assets/picData.js";
+import picData from "../assets/picData.js"; // adjust this path based on your file structure
 
 const GetPicIdeas = () => {
   const [currentImage, setCurrentImage] = useState(null);

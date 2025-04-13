@@ -1,5 +1,6 @@
 import { useState, useEffect, useRef } from "react";
-import picData from "/src/assets/picData.js";
+import picData from "../assets/picData.js"; // adjust this path based on your file structure
+
 import partySound from "/src/assets/party.opus";
 
 const ChoosePosition = () => {
