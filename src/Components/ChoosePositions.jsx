@@ -135,7 +135,7 @@ const ChoosePosition = () => {
 
       {isFinal && countdown7 !== null && !partyStarted && (
         <p className="mt-4 text-blue-600 text-lg">
-          Party starts in: {countdown7}s
+          Fun starts in: {countdown7}s
         </p>
       )}
 
@@ -148,7 +148,7 @@ const ChoosePosition = () => {
 
       {partyStarted && countdown2Min != null && (
         <p className="mt-4 text-2xl font-bold text-pink-600 animate-bounce">
-          🎉 Let the party begin! 🎉
+          Let The Fun Begin! 🥵🔥
         </p>
       )}
 

@@ -34,7 +34,7 @@ const Home = () => {
             <h2 className="text-2xl font-bold text-white mb-2">
               Choose a Position
             </h2>
-            <p className="text-gray-200">Pick a pose or camera angle idea.</p>
+            {/* <p className="text-gray-200">Pick a pose or camera angle idea.</p> */}
           </div>
         </div>
 
@@ -54,7 +54,7 @@ const Home = () => {
             <h2 className="text-2xl font-bold text-white mb-2">
               Get Picture Ideas
             </h2>
-            <p className="text-gray-200">Inspiration for your next shoot!</p>
+            {/* <p className="text-gray-200">Inspiration for your next shoot!</p> */}
           </div>
         </div>
       </div>
