@@ -43,12 +43,12 @@ const GetPicIdeas = () => {
         )}
       </div>
 
-      {!isGenerating && currentImage && (
+      {/* {!isGenerating && currentImage && (
         <p className="mt-4 text-gray-600">
           Suggested by:{" "}
           <span className="font-semibold">{currentImage.chooser}</span>
         </p>
-      )}
+      )} */}
 
       <button
         onClick={generateImage}
