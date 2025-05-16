@@ -164,12 +164,12 @@ const ChoosePosition = () => {
           )}
         </div>
 
-        {!isGenerating && currentImage && (
+        {/* {!isGenerating && currentImage && (
           <p className="mt-4 text-gray-600">
             Suggested by:{" "}
             <span className="font-semibold">{currentImage.chooser}</span>
           </p>
-        )}
+        )} */}
 
         {isFinal && countdown7 !== null && !partyStarted && (
           <p className="mt-4 text-blue-600 text-lg">
